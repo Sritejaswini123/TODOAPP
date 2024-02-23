@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.todo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
